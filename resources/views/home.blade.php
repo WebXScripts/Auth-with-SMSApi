@@ -15,6 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    {{ Session::token() }}
                 </div>
             </div>
         </div>
